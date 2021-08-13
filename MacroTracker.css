@@ -1,0 +1,108 @@
+/*Macro Tracker CSS File*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+#header{
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  margin-top: 5px
+}
+
+#inputSection{
+  padding: 50px;
+  border-radius: 50px;
+  margin-right: 300px;
+  margin-left: 300px;
+  background: dodgerblue;
+}
+
+label {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+input {
+  padding: 20px;
+  width: 95%;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: white;
+  border-radius: 50px;
+}
+
+input:focus{
+  background-color: whitesmoke;
+  outline: none;
+}
+
+#addBtn {
+  padding: 20px;
+  width: 100%;
+  background: dimgray;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  border-radius: 50px;
+}
+
+#addBtn:hover {
+  background-color: darkgray;
+}
+
+h2{
+  color: dodgerblue;
+  text-align: center;
+  font-size: 30px
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  border: 1px solid darkgray;
+  background-color: white;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 1px solid darkgray;
+  text-align: left;
+  background-color: dodgerblue;
+  color: white;
+  text-align: center;
+}
+
+#resetBtn {
+  padding: 20px;
+  width: 55%;
+  background: dimgray;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  border-radius: 50px;
+  margin: auto;
+  display: block;
+}
+
+#resetBtn:hover {
+  background-color: darkgray;
+}

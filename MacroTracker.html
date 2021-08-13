@@ -1,0 +1,65 @@
+<!-- MacroTracker HTML file -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Macro Tracker</title>
+  <meta name="description" content="Allows user to track their macros">
+  <meta name="author" content="Jayen Lare">
+
+  <link rel="stylesheet" href="MacroTracker.css">
+
+</head>
+<body>
+  <div id="inputSection">
+    <h1 id="header">Macro Tracker</h1>
+    <label for="meal">Meal:</label>
+    <input type="text" id="meal" placeholder="Describe your meal...">
+    <label for="protein">Protein:</label>
+    <input type="number" id="protein" placeholder="Enter amount of protein in grams...">
+    <label for="carbs">Carbs:</label>
+    <input type="number" id="carbs" placeholder="Enter amount of carbs in grams...">
+    <label for="fats">Fats:</label>
+    <input type="number" id="fats" placeholder="Enter amount of fats in grams...">
+    <label for="calories">Calories:</label>
+    <input type="number" id="calories" placeholder="Enter amount of calories...">
+    <button onclick="newFood()" id="addBtn">Add</button>
+    </div>
+    <br>
+
+    <h2>Meal Breakdown</h2>
+    <table id="display">
+      <tr>
+        <th>Meals</th>
+        <th>Protein</th> 
+        <th>Carbs</th>
+        <th>Fats</th>
+        <th>Calories</th>
+      </tr>
+    </table>
+    <br>
+
+    <h2>Total Macros and Calories</h2>
+    <table id="total">
+      <tr>
+        <th>Protein</th>
+        <th>Carbs</th> 
+        <th>Fats</th>
+        <th>Calories</th>
+      </tr>
+      <tr>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+    </table>
+    <br>
+    
+    <button onclick="resetButton()" id="resetBtn">Reset</button>
+
+  <script src="MacroTracker.js"></script>
+</body>
+</html>
